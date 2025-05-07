@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Додавання до веб-сторінки таблиць</title>
+  <style>
+    body {
+      background-color: #e0f7fa; /* будь-який фон, окрім чорного */
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    .t {
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="color: blue;">Додавання до веб-сторінки таблиць</h2>
+
+<h3>Таблиця 1</h3>
+<table>
+  <tr>
+    <th colspan="3" class="t">Кількість учнів</th>
+    <th colspan="3" class="t">Відсоток учнів, які працювали на дистанційному навчанні</th>
+  </tr>
+  <tr>
+    <td class="t">8-А клас</td>
+    <td class="t">8-Б клас</td>
+    <td class="t">8-В клас</td>
+    <td class="t">8-А клас</td>
+    <td class="t">8-Б клас</td>
+    <td class="t">8-В клас</td>
+  </tr>
+  <tr>
+    <td class="t">24 учні</td>
+    <td class="t">29 учнів</td>
+    <td class="t">20 учнів</td>
+    <td class="t">16%</td>
+    <td class="t">20%</td>
+    <td class="t">25%</td>
+  </tr>
+  <tr>
+    <td colspan="6" class="t">30.05.2025 - вручення табелів</td>
+  </tr>
+</table>
+
+<h3>Таблиця 2</h3>
+<table>
+<tr>
+    <td colspan="5">1</td>
+    
+</tr>
+<tr>
+    <td>2</td>
+    <td>2</td>
+    <td rowspan="3">2</td>
+    <td>2</td>
+    <td rowspan="3">2</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+       
+</tr>
+<tr>
+    <td>4</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">4</td>
+      
+</tr>
+<tr>
+    <td>5</td>
+    <td>5</td>
+    <td>5</td>
+    
+    
+</tr>
+</table>
+
+</body>
+</html>
